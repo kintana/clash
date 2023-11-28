@@ -1,0 +1,103 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+
+
+proxies:
+- { name: "GetAFreeNode.com-Kansas", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: E1FD1064-7319-4237-8BF1-9041ED68D892, alterId: 0, cipher: auto, tls: true, servername: Kansas.gafn.online, network: ws, ws-opts: { path: /speedtest, headers: { host: Kansas.gafn.online } } }
+- { name: "GetAFreeNode.com-LosAngeles", type: vmess, server: gafn.online, udp: true, port: 443, uuid: E1FD1064-7319-4237-8BF1-9041ED68D892, alterId: 0, cipher: auto, tls: true, servername: LosAngeles.gafn.online, network: ws, ws-opts: { path: /speedtest, headers: { host: LosAngeles.gafn.online } } }
+- { name: "Universal", type: vmess, server: sssinstagram.com, port: 443, udp: true, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, servername: sub.xn--9kq89d4y0g.top, network: ws, ws-opts: { path: /octavi.cfd:443/linkvws, headers: { host: sub.xn--9kq89d4y0g.top } } }
+- { name: "KZ Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: bdb9cac7-48f4-4af0-be3e-2b3418ce3475, alterId: 0, cipher: auto, tls: true, servername: kz-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: kz-full.privateip.net } } }
+- { name: "FR Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: ad591077-cfe8-402b-8e4c-134695416558, alterId: 0, cipher: auto, tls: true, servername: fr-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: fr-full.privateip.net } } }
+- { name: "FR2 Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: fea37e9c-0564-4d4b-a0d5-e59a93965846, alterId: 0, cipher: auto, tls: true, servername: fr2-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: fr2-full.privateip.net } } }
+- { name: "Octavi", type: vmess, server: 172.67.215.202, udp: true, port: 443, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, servername: octavi.cfd, network: ws, ws-opts: { path: linkvws, headers: { host: octavi.cfd } } }
+- { name: "Ophelia", type: vmess, server: 104.21.53.12, udp: true, port: 443, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, servername: ophelia.mom, network: ws, ws-opts: { path: linkvws, headers: { host: ophelia.mom } } }
+- { name: "Odelia", type: vmess, server: 104.21.21.88, udp: true, port: 443, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, servername: odelia.autos, network: ws, ws-opts: { path: linkvws, headers: { host: odelia.autos } } }
+- { name: "Waynn", type: vmess, server: 104.21.91.254, udp: true, port: 443, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, servername: waynn.makeup, network: ws, ws-opts: { path: linkvws, headers: { host: waynn.makeup } } }
+- { name: "Alvvin", type: vmess, server: 104.21.50.177, udp: true, port: 443, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, servername: alvvin.click, network: ws, ws-opts: { path: linkvws, headers: { host: alvvin.click } } }
+- { name: "Oliv", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, servername: oliv.beauty, network: ws, ws-opts: { path: linkvws, headers: { host: oliv.beauty } } }
+- { name: "UAE vpnjantit", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 30534fc2-8dba-11ee-949e-525401ccd36b, alterId: 0, cipher: auto, tls: true, servername: ae1.vpnjantit.com, network: ws, ws-opts: { path: /vpnjantit, headers: { host: ae1.vpnjantit.com } } }
+- { name: "UK2 vpnjantit", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: b72f402c-8dbb-11ee-99de-00163ec8961a, alterId: 0, cipher: auto, tls: true, servername: premiuk2.vpnjantit.com, network: ws, ws-opts: { path: /vpnjantit, headers: { host: premiuk2.vpnjantit.com } } }
+- { name: "UA1 vpnjantit", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: b6fb0c0c-8dbc-11ee-a6eb-e3fd7c21c537, alterId: 0, cipher: auto, tls: true, servername: ua1.vpnjantit.com, network: ws, ws-opts: { path: /vpnjantit, headers: { host: ua1.vpnjantit.com } } }
+- { name: "AU2 Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 4274c092-b743-4d5c-9551-6e160252a2ed, alterId: 0, cipher: auto, tls: true, servername: au2-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: au2-full.privateip.net } } }
+- { name: "AU Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 2b4a8468-d9c5-4551-8f20-811d2c998dcd, alterId: 0, cipher: auto, tls: true, servername: au-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: au-full.privateip.net } } }
+- { name: "SE Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 1243413c-69e8-414d-9569-7a9d87c69c1b, alterId: 0, cipher: auto, tls: true, servername: se-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: se-full.privateip.net } } }
+- { name: "CA2 Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: d7aa660c-b292-40a4-96d3-6ab16a26a69a, alterId: 0, cipher: auto, tls: true, servername: ca2-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: ca2-full.privateip.net } } }
+- { name: "CA Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: db145738-7258-402d-845e-cffc0046c3f6, alterId: 0, cipher: auto, tls: true, servername: ca-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: ca-full.privateip.net } } }
+- { name: "DE Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: c728960e-441c-4bab-aea8-e6a0b8f1e24b, alterId: 0, cipher: auto, tls: true, servername: de-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: de-full.privateip.net } } }
+- { name: "DE2 Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 94e0bd36-57bb-4d1c-8315-0840fe0d26b3, alterId: 0, cipher: auto, tls: true, servername: de2-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: de2-full.privateip.net } } }
+- { name: "DE3 Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: e12c7ad8-4005-4276-bad4-502cd5a8f8fe, alterId: 0, cipher: auto, tls: true, servername: de3-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: de3-full.privateip.net } } }
+- { name: "US Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: f80a8685-dd38-4a2b-8b12-6262b126898d, alterId: 0, cipher: auto, tls: true, servername: us-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: us-full.privateip.net } } }
+- { name: "US2 Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: b587c979-a295-415e-892d-15e6c2bfdfa7, alterId: 0, cipher: auto, tls: true, servername: us2-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: us2-full.privateip.net } } }
+- { name: "US3 Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 50a29f20-b330-4888-844b-2db549e91c74, alterId: 0, cipher: auto, tls: true, servername: us3-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: us3-full.privateip.net } } }
+- { name: "NL Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: bd32bdcc-1655-463d-bd85-392b61deadc2, alterId: 0, cipher: auto, tls: true, servername: nl-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: nl-full.privateip.net } } }
+- { name: "NL2 Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: bd21e378-fccc-4da8-8acd-73da72dfebc6, alterId: 0, cipher: auto, tls: true, servername: nl2-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: nl2-full.privateip.net } } }
+- { name: "NL3 Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 988ab6bd-3034-4d86-8a04-3784737169ed, alterId: 0, cipher: auto, tls: true, servername: nl3-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: nl3-full.privateip.net } } }
+- { name: "DE3 Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: e12c7ad8-4005-4276-bad4-502cd5a8f8fe, alterId: 0, cipher: auto, tls: true, servername: de3-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: de3-full.privateip.net } } }
+- { name: "TR Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 20b06eca-05dc-4541-b2c9-b42a6cab0888, alterId: 0, cipher: auto, tls: true, servername: tr-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: tr-full.privateip.net } } }
+- { name: "UK Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: fcc2ad21-1f6e-4ba3-8275-70d2e5915490, alterId: 0, cipher: auto, tls: true, servername: uk-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: uk-full.privateip.net } } }
+- { name: "UK2 Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 6abeac10-5895-4174-93df-64ee08c96fd6, alterId: 0, cipher: auto, tls: true, servername: uk2-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: uk2-full.privateip.net } } }
+- { name: "UA Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 2cabbe24-90a7-491a-9fe6-66bb14d7bc61, alterId: 0, cipher: auto, tls: true, servername: ua-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: ua-full.privateip.net } } }
+
+
+
+proxy-groups:
+
+  - name: "Getafreenode"
+    type: select
+    proxies:
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-LosAngeles
+
+  - name: "RaceVPN"
+    type: select
+    proxies:
+      - KZ Racevpn
+      - FR Racevpn
+      - FR2 Racevpn
+      - AU2 Racevpn
+      - AU Racevpn
+      - CA2 Racevpn
+      - CA Racevpn
+      - SE Racevpn
+      - DE Racevpn
+      - DE2 Racevpn
+      - DE3 Racevpn
+      - US Racevpn
+      - US2 Racevpn
+      - US3 Racevpn
+      - NL Racevpn
+      - NL2 Racevpn
+      - NL3 Racevpn
+      - UK Racevpn
+      - UA Racevpn
+      - TR Racevpn
+      - TR Racevpn
+
+  - name: "vpn.fail"
+    type: select
+    proxies:
+      - Octavi
+      - Ophelia
+      - Odelia
+      - Waynn
+      - Alvvin
+      - Oliv
+      - Universal
+
+  - name: "VPNJANTIT"
+    type: select
+    proxies:
+      - UAE vpnjantit
+      - UK2 vpnjantit
+      - UA1 vpnjantit
+      - UA3 vpnjantit
+
+rules:
+  - MATCH,Getafreenode
+  - MATCH,RaceVPN
+  - MATCH,vpn.fail
+  - MATCH,VPNJANTIT
