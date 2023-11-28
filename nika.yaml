@@ -9,8 +9,9 @@ external-controller: 127.0.0.1:9090
 proxies:
 - { name: "GetAFreeNode.com-Kansas", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: E1FD1064-7319-4237-8BF1-9041ED68D892, alterId: 0, cipher: auto, tls: true, servername: Kansas.gafn.online, network: ws, ws-opts: { path: /speedtest, headers: { host: Kansas.gafn.online } } }
 - { name: "GetAFreeNode.com-LosAngeles", type: vmess, server: gafn.online, udp: true, port: 443, uuid: E1FD1064-7319-4237-8BF1-9041ED68D892, alterId: 0, cipher: auto, tls: true, servername: LosAngeles.gafn.online, network: ws, ws-opts: { path: /speedtest, headers: { host: LosAngeles.gafn.online } } }
-- { name: "DE Globalssh", type: vmess, server: gafn.online, udp: true, port: 443, uuid: b0b41fa8-5cf4-4f71-aff6-3a6d48419b10, alterId: 0, cipher: auto, tls: true, servername: vmess-ctb-de01.globalssh.xyz, network: ws, ws-opts: { path: /vmess-ws, headers: { host: vmess-ctb-de01.globalssh.xyz } } }
-- { name: "US Globalssh", type: vmess, server: gafn.online, udp: true, port: 443, uuid: 8951382f-83cc-4464-90ba-6a714a46ae3f, alterId: 0, cipher: auto, tls: true, servername: vmess-rs-us01.globalssh.xyz, network: ws, ws-opts: { path: /vmess-ws, headers: { host: vmess-rs-us01.globalssh.xyz } } }
+- { name: "DE Globalssh", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: b0b41fa8-5cf4-4f71-aff6-3a6d48419b10, alterId: 0, cipher: auto, tls: true, servername: vmess-ctb-de01.globalssh.xyz, network: ws, ws-opts: { path: /vmess-ws, headers: { host: vmess-ctb-de01.globalssh.xyz } } }
+- { name: "US Globalssh", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 8951382f-83cc-4464-90ba-6a714a46ae3f, alterId: 0, cipher: auto, tls: true, servername: vmess-rs-us01.globalssh.xyz, network: ws, ws-opts: { path: /vmess-ws, headers: { host: vmess-rs-us01.globalssh.xyz } } }
+- { name: "NL Globalssh", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: c854521d-1ed3-470b-90d8-18492abdd16e, alterId: 0, cipher: auto, tls: true, servername: vmess-adv-nl01.globalssh.xyz, network: ws, ws-opts: { path: /vmess-ws, headers: { host: vmess-adv-nl01.globalssh.xyz } } }
 - { name: "Universal", type: vmess, server: sssinstagram.com, port: 443, udp: true, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, servername: sub.xn--9kq89d4y0g.top, network: ws, ws-opts: { path: /octavi.cfd:443/linkvws, headers: { host: sub.xn--9kq89d4y0g.top } } }
 - { name: "KZ Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: bdb9cac7-48f4-4af0-be3e-2b3418ce3475, alterId: 0, cipher: auto, tls: true, servername: kz-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: kz-full.privateip.net } } }
 - { name: "FR Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: ad591077-cfe8-402b-8e4c-134695416558, alterId: 0, cipher: auto, tls: true, servername: fr-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: fr-full.privateip.net } } }
@@ -103,6 +104,7 @@ proxy-groups:
     proxies:
       - DE Globalssh
       - US Globalssh
+      - NL Globalssh
 
 rules:
   - MATCH,Getafreenode
