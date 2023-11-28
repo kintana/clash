@@ -96,6 +96,7 @@ proxy-groups:
     proxies:
       - DE Globalssh
       - US Globalssh
+      - NL Globalssh
 
 rules:
   - MATCH,Getafreenode
