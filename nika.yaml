@@ -1,9 +1,10 @@
 port: 7890
 socks-port: 7891
 allow-lan: true
-mode: Rule
+mode: Global
 log-level: info
 external-controller: 127.0.0.1:9090
+sniff-tls-sni: true
 
 
 proxies:
@@ -107,8 +108,8 @@ proxy-groups:
       - NL Globalssh
 
 rules:
-  - MATCH,Getafreenode
   - MATCH,RaceVPN
+  - MATCH,Getafreenode
   - MATCH,vpn.fail
   - MATCH,VPNJANTIT
   - MATCH,Globalssh
