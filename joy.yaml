@@ -1,3 +1,5 @@
+sniff-tls-sni: true
+
 proxies:
 - { name: "GetAFreeNode.com-Kansas", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: E1FD1064-7319-4237-8BF1-9041ED68D892, alterId: 0, cipher: auto, tls: true, servername: Kansas.gafn.online, network: ws, ws-opts: { path: /speedtest, headers: { host: Kansas.gafn.online } } }
 - { name: "GetAFreeNode.com-LosAngeles", type: vmess, server: gafn.online, udp: true, port: 443, uuid: E1FD1064-7319-4237-8BF1-9041ED68D892, alterId: 0, cipher: auto, tls: true, servername: LosAngeles.gafn.online, network: ws, ws-opts: { path: /speedtest, headers: { host: LosAngeles.gafn.online } } }
