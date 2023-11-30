@@ -217,8 +217,8 @@ proxy-groups:
   - name: "BEST-PING"
     type: url-test
     url: http://hi.bonds.id/ping
-    interval: 0
-    tolerance: 0
+    interval: 999999999
+    tolerance: 50
     proxies:
       - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-LosAngeles
