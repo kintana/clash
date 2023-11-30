@@ -175,6 +175,44 @@ proxy-groups:
     type: select
     proxies:
       - BEST-PING
+      - DIRECT
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-LosAngeles
+      - KZ Racevpn
+      - FR Racevpn
+      - FR2 Racevpn
+      - AU2 Racevpn
+      - AU Racevpn
+      - CA2 Racevpn
+      - CA Racevpn
+      - SE Racevpn
+      - DE Racevpn
+      - DE2 Racevpn
+      - DE3 Racevpn
+      - US Racevpn
+      - US2 Racevpn
+      - US3 Racevpn
+      - NL Racevpn
+      - NL2 Racevpn
+      - NL3 Racevpn
+      - UK Racevpn
+      - UA Racevpn
+      - TR Racevpn
+      - TR Racevpn
+      - Octavi
+      - Ophelia
+      - Odelia
+      - Waynn
+      - Alvvin
+      - Oliv
+      - Universal
+      - UAE vpnjantit
+      - UK2 vpnjantit
+      - UA1 vpnjantit
+      - UA3 vpnjantit
+      - DE Globalssh
+      - US Globalssh
+      - NL Globalssh
 
   - name: "BEST-PING"
     type: url-test
