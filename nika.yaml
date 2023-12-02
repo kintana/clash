@@ -170,6 +170,8 @@ proxies:
 - { name: "UA Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 15bdeb33-545e-429c-ac7e-148497fd9f09, alterId: 0, cipher: auto, tls: true, servername: ua-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: ua-full.privateip.net } } }
 - { name: "IN Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 47a60c83-2afd-4c3f-a810-466862a739a5, alterId: 0, cipher: auto, tls: true, servername: in-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: in-full.privateip.net } } }
 - { name: "JP Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 3d957d26-18a9-4fda-a02c-7f4f7c132d57, alterId: 0, cipher: auto, tls: true, servername: in-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: in-full.privateip.net } } }
+- { name: "IT Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: ff146afd-0d39-40e1-ad1d-5e1c707552b0, alterId: 0, cipher: auto, tls: true, servername: it-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: it-full.privateip.net } } }
+- { name: "ES Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 3902c1f9-095d-4a64-9a3a-d1af744f7a66, alterId: 0, cipher: auto, tls: true, servername: es-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: es-full.privateip.net } } }
 
 
 
@@ -204,6 +206,8 @@ proxy-groups:
       - TR Racevpn
       - IN Racevpn
       - JP Racevpn
+      - IT Racevpn
+      - ES Racevpn
       - Octavi
       - Ophelia
       - Odelia
@@ -251,6 +255,8 @@ proxy-groups:
       - TR Racevpn
       - IN Racevpn
       - JP Racevpn
+      - IT Racevpn
+      - ES Racevpn
       - Octavi
       - Ophelia
       - Odelia
@@ -299,6 +305,8 @@ proxy-groups:
       - TR Racevpn
       - IN Racevpn
       - JP Racevpn
+      - IT Racevpn
+      - ES Racevpn
 
   - name: "vpn.fail"
     type: select
