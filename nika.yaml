@@ -173,6 +173,7 @@ proxies:
 - { name: "IT Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: ff146afd-0d39-40e1-ad1d-5e1c707552b0, alterId: 0, cipher: auto, tls: true, servername: it-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: it-full.privateip.net } } }
 - { name: "ES Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 3902c1f9-095d-4a64-9a3a-d1af744f7a66, alterId: 0, cipher: auto, tls: true, servername: es-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: es-full.privateip.net } } }
 - { name: "US4 Opentunnel", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, servername: usv-4.openv2ray.com, network: ws, ws-opts: { path: /u/opentunnel.net-lebla, headers: { host: usv-4.openv2ray.com } } }
+- { name: "NL1 Opentunnel", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, servername: nlv-1.openv2ray.com, network: ws, ws-opts: { path: /u/opentunnel.net-lebla, headers: { host: nlv-1.openv2ray.com } } }
 
 
 
@@ -226,6 +227,7 @@ proxy-groups:
       - US Globalssh
       - NL Globalssh
       - US4 Opentunnel
+      - NL1 Opentunnel
 
   - name: "BEST-PING"
     type: url-test
@@ -276,6 +278,7 @@ proxy-groups:
       - US Globalssh
       - NL Globalssh
       - US4 Opentunnel
+      - NL1 Opentunnel
 
   - name: "Getafreenode"
     type: select
@@ -343,6 +346,7 @@ proxy-groups:
     type: select
     proxies:
       - US4 Opentunnel
+      - NL1 Opentunnel
       
 rule-providers:
   clash:
