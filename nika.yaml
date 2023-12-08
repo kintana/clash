@@ -145,6 +145,8 @@ proxies:
 - { name: "Waynn", type: vmess, server: 104.21.91.254, udp: true, port: 443, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, servername: waynn.makeup, network: ws, ws-opts: { path: linkvws, headers: { host: waynn.makeup } } }
 - { name: "Alvvin", type: vmess, server: 104.21.50.177, udp: true, port: 443, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, servername: alvvin.click, network: ws, ws-opts: { path: linkvws, headers: { host: alvvin.click } } }
 - { name: "Oliv", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, servername: oliv.beauty, network: ws, ws-opts: { path: linkvws, headers: { host: oliv.beauty } } }
+- { name: "UK Streaming", type: vmess, server: polouk.yj2022.gq, udp: true, port: 8080, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, servername: polouk.yj2022.gq, network: ws, ws-opts: { path: /r8ykwif5rffiqJeJ49zLka7PbhWz3wiHs8cSeiRyZL, headers: { host: polouk.yj2022.gq } } }
+- { name: "Luxembourg", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, servername: ztzhhluj.site, network: ws, ws-opts: { path: /kwhmvws, headers: { host: ztzhhluj.site } } }
 - { name: "UAE vpnjantit", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 1b4430b0-920b-11ee-a0a7-525401ccd36b, alterId: 0, cipher: auto, tls: true, servername: ae1.vpnjantit.com, network: ws, ws-opts: { path: /vpnjantit, headers: { host: ae1.vpnjantit.com } } }
 - { name: "UK2 vpnjantit", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 95d73d68-9364-11ee-a3f8-00163ec8961a, alterId: 0, cipher: auto, tls: true, servername: premiuk2.vpnjantit.com, network: ws, ws-opts: { path: /vpnjantit, headers: { host: premiuk2.vpnjantit.com } } }
 - { name: "UA1 vpnjantit", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: bad4a296-9368-11ee-ad56-17a6d61bf323, alterId: 0, cipher: auto, tls: true, servername: ua1.vpnjantit.com, network: ws, ws-opts: { path: /vpnjantit, headers: { host: ua1.vpnjantit.com } } }
@@ -221,6 +223,8 @@ proxy-groups:
       - Waynn
       - Alvvin
       - Oliv
+      - UK Sreaming
+      - Luxembourg
       - Universal
       - UAE vpnjantit
       - UK2 vpnjantit
@@ -277,6 +281,8 @@ proxy-groups:
       - Waynn
       - Alvvin
       - Oliv
+      - UK Sreaming
+      - Luxembourg
       - Universal
       - UAE vpnjantit
       - UK2 vpnjantit
@@ -339,6 +345,8 @@ proxy-groups:
       - Waynn
       - Alvvin
       - Oliv
+      - UK Sreaming
+      - Luxembourg
       - Universal
 
   - name: "VPNJANTIT"
