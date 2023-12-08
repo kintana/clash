@@ -133,6 +133,7 @@ proxies:
 - { name: "GetAFreeNode.com-LosAngeles", type: vmess, server: gafn.online, udp: true, port: 443, uuid: E1FD1064-7319-4237-8BF1-9041ED68D892, alterId: 0, cipher: auto, tls: true, servername: LosAngeles.gafn.online, network: ws, ws-opts: { path: /speedtest, headers: { host: LosAngeles.gafn.online } } }
 - { name: "DE Globalssh", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: b0b41fa8-5cf4-4f71-aff6-3a6d48419b10, alterId: 0, cipher: auto, tls: true, servername: vmess-ctb-de01.globalssh.xyz, network: ws, ws-opts: { path: /vmess-ws, headers: { host: vmess-ctb-de01.globalssh.xyz } } }
 - { name: "US Globalssh", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 8951382f-83cc-4464-90ba-6a714a46ae3f, alterId: 0, cipher: auto, tls: true, servername: vmess-rs-us01.globalssh.xyz, network: ws, ws-opts: { path: /vmess-ws, headers: { host: vmess-rs-us01.globalssh.xyz } } }
+- { name: "CA Globalssh", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: f895bc2b-8729-4265-992b-dc581bccad0a, alterId: 0, cipher: auto, tls: true, servername: vmess-ovh-ca01.globalssh.xyz, network: ws, ws-opts: { path: /vmess-ws, headers: { host:vmess-ovh-ca01.globalssh.xyz } } }
 - { name: "NL Globalssh", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: c854521d-1ed3-470b-90d8-18492abdd16e, alterId: 0, cipher: auto, tls: true, servername: vmess-adv-nl01.globalssh.xyz, network: ws, ws-opts: { path: /vmess-ws, headers: { host: vmess-adv-nl01.globalssh.xyz } } }
 - { name: "Universal", type: vmess, server: sssinstagram.com, port: 443, udp: true, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, servername: cf.tonyluk.link, network: ws, ws-opts: { path: /ophelia.mom:443/linkvws, headers: { host: cf.tonyluk.link } } }
 - { name: "KZ Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 647f1c6a-50ed-45bd-a612-c7572e0de1b1, alterId: 0, cipher: auto, tls: true, servername: kz-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: kz-full.privateip.net } } }
@@ -175,6 +176,9 @@ proxies:
 - { name: "US4 Opentunnel", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, servername: usv-4.openv2ray.com, network: ws, ws-opts: { path: /u/opentunnel.net-lebla, headers: { host: usv-4.openv2ray.com } } }
 - { name: "NL1 Opentunnel", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, servername: nlv-1.openv2ray.com, network: ws, ws-opts: { path: /u/opentunnel.net-lebla, headers: { host: nlv-1.openv2ray.com } } }
 - { name: "NL6 Opentunnel", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, servername: nlv-6.openv2ray.com, network: ws, ws-opts: { path: /u/opentunnel.net-lebla, headers: { host: nlv-6.openv2ray.com } } }
+- { name: "FR1 Opentunnel", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, servername: frv-1.openv2ray.com, network: ws, ws-opts: { path: /u/opentunnel.net-lebla, headers: { host: frv-1.openv2ray.com } } }
+- { name: "US1 Opentunnel", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, servername: usv-1.openv2ray.com, network: ws, ws-opts: { path: /u/opentunnel.net-lebla, headers: { host: usv-1.openv2ray.com } } }
+- { name: "AU1 Opentunnel", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, servername: auv-1.openv2ray.com, network: ws, ws-opts: { path: /u/opentunnel.net-lebla, headers: { host: auv-1.openv2ray.com } } }
 
 
 
@@ -227,7 +231,11 @@ proxy-groups:
       - DE Globalssh
       - US Globalssh
       - NL Globalssh
+      - CA Globalssh
+      - US1 Opentunnel
       - US4 Opentunnel
+      - FR1 Opentunnel
+      - AU1 Opentunnel
       - NL1 Opentunnel
       - NL6 Opentunnel
 
@@ -279,6 +287,11 @@ proxy-groups:
       - DE Globalssh
       - US Globalssh
       - NL Globalssh
+      - CA Globalssh
+      - US1 Opentunnel
+      - US4 Opentunnel
+      - FR1 Opentunnel
+      - AU1 Opentunnel
       - US4 Opentunnel
       - NL1 Opentunnel
       - NL6 Opentunnel
@@ -344,6 +357,7 @@ proxy-groups:
       - DE Globalssh
       - US Globalssh
       - NL Globalssh
+      - CA Globalssh
 
   - name: "Opentunnel"
     type: select
@@ -351,6 +365,10 @@ proxy-groups:
       - US4 Opentunnel
       - NL1 Opentunnel
       - NL6 Opentunnel
+      - US1 Opentunnel
+      - US4 Opentunnel
+      - FR1 Opentunnel
+      - AU1 Opentunnel
       
 rule-providers:
   clash:
