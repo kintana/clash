@@ -145,6 +145,12 @@ proxies:
 - { name: "Waynn", type: vmess, server: 104.21.91.254, udp: true, port: 443, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, servername: waynn.makeup, network: ws, ws-opts: { path: linkvws, headers: { host: waynn.makeup } } }
 - { name: "Alvvin", type: vmess, server: 104.21.50.177, udp: true, port: 443, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, servername: alvvin.click, network: ws, ws-opts: { path: linkvws, headers: { host: alvvin.click } } }
 - { name: "Oliv", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, servername: oliv.beauty, network: ws, ws-opts: { path: linkvws, headers: { host: oliv.beauty } } }
+- { name: "torlqsbztdo", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, servername: torlqsbztdo.site, network: ws, ws-opts: { path: /kwhmvws, headers: { host: torlqsbztdo.site } } }
+- { name: "xsasowspdqz", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, servername: xsasowspdqz.site, network: ws, ws-opts: { path: /kwhmvws, headers: { host: xsasowspdqz.site } } }
+- { name: "tehgsykbzb", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, servername: tehgsykbzb.site, network: ws, ws-opts: { path: /kwhmvws, headers: { host: tehgsykbzb.site } } }
+- { name: "rlhrwtqusd", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, servername: rlhrwtqusd.site, network: ws, ws-opts: { path: /kwhmvws, headers: { host: rlhrwtqusd.site } } }
+- { name: "femiafmr", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, servername: femiafmr.site, network: ws, ws-opts: { path: /kwhmvws, headers: { host: femiafmr.site } } }
+- { name: "api.lp-airdrop.top", type: vmess, server: sssinstagram.com, udp: true, port: 2096, uuid: e36c98f2-bb76-45f6-d545-61393522027d, alterId: 0, cipher: auto, tls: true, servername: api.lp-airdrop.top, network: ws, ws-opts: { path: /login, headers: { host: api.lp-airdrop.top } } }
 - { name: "UK Streaming", type: vmess, server: sssinstagram.com, udp: true, port: 8080, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, servername: polouk.yj2022.gq, network: ws, ws-opts: { path: /r8ykwif5rffiqJeJ49zLka7PbhWz3wiHs8cSeiRyZL, headers: { host: polouk.yj2022.gq } } }
 - { name: "Luxembourg", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, servername: ztzhhluj.site, network: ws, ws-opts: { path: /kwhmvws, headers: { host: ztzhhluj.site } } }
 - { name: "UAE vpnjantit", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 1b4430b0-920b-11ee-a0a7-525401ccd36b, alterId: 0, cipher: auto, tls: true, servername: ae1.vpnjantit.com, network: ws, ws-opts: { path: /vpnjantit, headers: { host: ae1.vpnjantit.com } } }
@@ -223,6 +229,12 @@ proxy-groups:
       - Waynn
       - Alvvin
       - Oliv
+      - torlqsbztdo
+      - xsasowspdqz
+      - tehgsykbzb
+      - rlhrwtqusd
+      - femiafmr
+      - api.lp-airdrop.top
       - UK Streaming
       - Luxembourg
       - Universal
@@ -281,6 +293,12 @@ proxy-groups:
       - Waynn
       - Alvvin
       - Oliv
+      - torlqsbztdo
+      - xsasowspdqz
+      - tehgsykbzb
+      - rlhrwtqusd
+      - femiafmr
+      - api.lp-airdrop.top
       - UK Streaming
       - Luxembourg
       - Universal
@@ -345,6 +363,12 @@ proxy-groups:
       - Waynn
       - Alvvin
       - Oliv
+      - torlqsbztdo
+      - xsasowspdqz
+      - tehgsykbzb
+      - rlhrwtqusd
+      - femiafmr
+      - api.lp-airdrop.top
       - UK Streaming
       - Luxembourg
       - Universal
