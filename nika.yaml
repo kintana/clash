@@ -217,6 +217,7 @@ proxy-groups:
       - NL2 Racevpn
       - NL3 Racevpn
       - UK Racevpn
+      - UK2 Racevpn
       - UA Racevpn
       - TR Racevpn
       - IN Racevpn
@@ -258,7 +259,7 @@ proxy-groups:
   - name: "BEST-PING"
     type: url-test
     url: http://hi.bonds.id/ping
-    interval: 999999999
+    interval: 300
     tolerance: 50
     proxies:
       - GetAFreeNode.com-Kansas
@@ -281,6 +282,7 @@ proxy-groups:
       - NL2 Racevpn
       - NL3 Racevpn
       - UK Racevpn
+      - UK2 Racevpn
       - UA Racevpn
       - TR Racevpn
       - IN Racevpn
@@ -347,6 +349,7 @@ proxy-groups:
       - NL2 Racevpn
       - NL3 Racevpn
       - UK Racevpn
+      - UK2 Racevpn
       - UA Racevpn
       - TR Racevpn
       - IN Racevpn
