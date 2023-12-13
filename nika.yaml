@@ -137,8 +137,8 @@ proxies:
 - { name: "NL Globalssh", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: c854521d-1ed3-470b-90d8-18492abdd16e, alterId: 0, cipher: auto, tls: true, servername: vmess-adv-nl01.globalssh.xyz, network: ws, ws-opts: { path: /vmess-ws, headers: { host: vmess-adv-nl01.globalssh.xyz } } }
 - { name: "Universal", type: vmess, server: sssinstagram.com, port: 443, udp: true, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, servername: cf.tonyluk.link, network: ws, ws-opts: { path: /ophelia.mom:443/linkvws, headers: { host: cf.tonyluk.link } } }
 - { name: "KZ Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 3e60fd96-6e71-4a27-8174-30e364cfc72b, alterId: 0, cipher: auto, tls: true, servername: kz-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: kz-full.privateip.net } } }
-- { name: "FR Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 301f4485-2d56-4d78-a30d-a55ca109e5ff, alterId: 0, cipher: auto, tls: true, servername: fr-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: fr-full.privateip.net } } }
-- { name: "FR2 Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 30d04308-8e1c-45d0-9b6a-f414865bafe0, alterId: 0, cipher: auto, tls: true, servername: fr2-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: fr2-full.privateip.net } } }
+- { name: "🇫🇷 FR Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 301f4485-2d56-4d78-a30d-a55ca109e5ff, alterId: 0, cipher: auto, tls: true, servername: fr-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: fr-full.privateip.net } } }
+- { name: "🇫🇷 FR2 Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 30d04308-8e1c-45d0-9b6a-f414865bafe0, alterId: 0, cipher: auto, tls: true, servername: fr2-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: fr2-full.privateip.net } } }
 - { name: "Octavi", type: vmess, server: 172.67.215.202, udp: true, port: 443, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, servername: octavi.cfd, network: ws, ws-opts: { path: linkvws, headers: { host: octavi.cfd } } }
 - { name: "Ophelia", type: vmess, server: 104.21.53.12, udp: true, port: 443, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, servername: ophelia.mom, network: ws, ws-opts: { path: linkvws, headers: { host: ophelia.mom } } }
 - { name: "Odelia", type: vmess, server: 104.21.21.88, udp: true, port: 443, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, servername: odelia.autos, network: ws, ws-opts: { path: linkvws, headers: { host: odelia.autos } } }
@@ -184,7 +184,7 @@ proxies:
 - { name: "US4 Opentunnel", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, servername: usv-4.openv2ray.com, network: ws, ws-opts: { path: /u/opentunnel.net-lebla, headers: { host: usv-4.openv2ray.com } } }
 - { name: "NL1 Opentunnel", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, servername: nlv-1.openv2ray.com, network: ws, ws-opts: { path: /u/opentunnel.net-lebla, headers: { host: nlv-1.openv2ray.com } } }
 - { name: "NL6 Opentunnel", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, servername: nlv-6.openv2ray.com, network: ws, ws-opts: { path: /u/opentunnel.net-lebla, headers: { host: nlv-6.openv2ray.com } } }
-- { name: "FR1 Opentunnel", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, servername: frv-1.openv2ray.com, network: ws, ws-opts: { path: /u/opentunnel.net-lebla, headers: { host: frv-1.openv2ray.com } } }
+- { name: "🇫🇷 FR1 Opentunnel", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, servername: frv-1.openv2ray.com, network: ws, ws-opts: { path: /u/opentunnel.net-lebla, headers: { host: frv-1.openv2ray.com } } }
 - { name: "US1 Opentunnel", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, servername: usv-1.openv2ray.com, network: ws, ws-opts: { path: /u/opentunnel.net-lebla, headers: { host: usv-1.openv2ray.com } } }
 - { name: "AU1 Opentunnel", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, servername: auv-1.openv2ray.com, network: ws, ws-opts: { path: /u/opentunnel.net-lebla, headers: { host: auv-1.openv2ray.com } } }
 
@@ -200,8 +200,8 @@ proxy-groups:
       - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-LosAngeles
       - KZ Racevpn
-      - FR Racevpn
-      - FR2 Racevpn
+      - 🇫🇷 FR Racevpn
+      - 🇫🇷 FR2 Racevpn
       - AU2 Racevpn
       - AU Racevpn
       - CA2 Racevpn
@@ -251,7 +251,7 @@ proxy-groups:
       - CA Globalssh
       - US1 Opentunnel
       - US4 Opentunnel
-      - FR1 Opentunnel
+      - 🇫🇷 FR1 Opentunnel
       - AU1 Opentunnel
       - NL1 Opentunnel
       - NL6 Opentunnel
@@ -265,8 +265,8 @@ proxy-groups:
       - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-LosAngeles
       - KZ Racevpn
-      - FR Racevpn
-      - FR2 Racevpn
+      - 🇫🇷 FR Racevpn
+      - 🇫🇷 FR2 Racevpn
       - AU2 Racevpn
       - AU Racevpn
       - CA2 Racevpn
@@ -316,7 +316,7 @@ proxy-groups:
       - CA Globalssh
       - US1 Opentunnel
       - US4 Opentunnel
-      - FR1 Opentunnel
+      - 🇫🇷 FR1 Opentunnel
       - AU1 Opentunnel
       - US4 Opentunnel
       - NL1 Opentunnel
@@ -332,8 +332,8 @@ proxy-groups:
     type: select
     proxies:
       - KZ Racevpn
-      - FR Racevpn
-      - FR2 Racevpn
+      - 🇫🇷 FR Racevpn
+      - 🇫🇷 FR2 Racevpn
       - AU2 Racevpn
       - AU Racevpn
       - CA2 Racevpn
@@ -402,7 +402,7 @@ proxy-groups:
       - NL6 Opentunnel
       - US1 Opentunnel
       - US4 Opentunnel
-      - FR1 Opentunnel
+      - 🇫🇷 FR1 Opentunnel
       - AU1 Opentunnel
       
 rule-providers:
