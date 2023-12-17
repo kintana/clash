@@ -191,12 +191,12 @@ proxies:
 - { name: "🇯🇵 JP Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: c26b5c68-b9f5-4d58-9969-b0bba4be4cce, alterId: 0, cipher: auto, tls: true, servername: in-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: in-full.privateip.net } } }
 - { name: "🇮🇹 IT Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: b64939c4-5ac5-4a10-914d-394bdc7e5ec2, alterId: 0, cipher: auto, tls: true, servername: it-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: it-full.privateip.net } } }
 - { name: "🇪🇸 ES Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 0ea57be9-a6ac-41d9-a8c2-ae264ad0d739, alterId: 0, cipher: auto, tls: true, servername: es-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: es-full.privateip.net } } }
-- { name: "🇺🇸 US4 Opentunnel", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, servername: usv-4.openv2ray.com, network: ws, ws-opts: { path: /u/opentunnel.net-lebla, headers: { host: usv-4.openv2ray.com } } }
-- { name: "🇳🇱 NL1 Opentunnel", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, servername: nlv-1.openv2ray.com, network: ws, ws-opts: { path: /u/opentunnel.net-lebla, headers: { host: nlv-1.openv2ray.com } } }
-- { name: "🇳🇱 NL6 Opentunnel", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, servername: nlv-6.openv2ray.com, network: ws, ws-opts: { path: /u/opentunnel.net-lebla, headers: { host: nlv-6.openv2ray.com } } }
-- { name: "🇫🇷 FR1 Opentunnel", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, servername: frv-1.openv2ray.com, network: ws, ws-opts: { path: /u/opentunnel.net-lebla, headers: { host: frv-1.openv2ray.com } } }
-- { name: "🇺🇸 US1 Opentunnel", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, servername: usv-1.openv2ray.com, network: ws, ws-opts: { path: /u/opentunnel.net-lebla, headers: { host: usv-1.openv2ray.com } } }
-- { name: "🇦🇺 AU1 Opentunnel", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, servername: auv-1.openv2ray.com, network: ws, ws-opts: { path: /u/opentunnel.net-lebla, headers: { host: auv-1.openv2ray.com } } }
+- { name: "🇺🇸 US4 Opentunnel", type: vmess, server: usv-4.openv2ray.com, udp: true, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, servername: usv-4.openv2ray.com, network: ws, ws-opts: { path: /u/opentunnel.net-lebla, headers: { host: usv-4.openv2ray.com } } }
+- { name: "🇳🇱 NL1 Opentunnel", type: vmess, server: nlv-1.openv2ray.com, udp: true, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, servername: nlv-1.openv2ray.com, network: ws, ws-opts: { path: /u/opentunnel.net-lebla, headers: { host: nlv-1.openv2ray.com } } }
+- { name: "🇳🇱 NL6 Opentunnel", type: vmess, server: nlv-6.openv2ray.com, udp: true, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, servername: nlv-6.openv2ray.com, network: ws, ws-opts: { path: /u/opentunnel.net-lebla, headers: { host: nlv-6.openv2ray.com } } }
+- { name: "🇫🇷 FR1 Opentunnel", type: vmess, server: frv-1.openv2ray.com, udp: true, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, servername: frv-1.openv2ray.com, network: ws, ws-opts: { path: /u/opentunnel.net-lebla, headers: { host: frv-1.openv2ray.com } } }
+- { name: "🇺🇸 US1 Opentunnel", type: vmess, server: usv-1.openv2ray.com, udp: true, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, servername: usv-1.openv2ray.com, network: ws, ws-opts: { path: /u/opentunnel.net-lebla, headers: { host: usv-1.openv2ray.com } } }
+- { name: "🇦🇺 AU1 Opentunnel", type: vmess, server: auv-1.openv2ray.com, udp: true, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, servername: auv-1.openv2ray.com, network: ws, ws-opts: { path: /u/opentunnel.net-lebla, headers: { host: auv-1.openv2ray.com } } }
 
 
 
@@ -254,6 +254,7 @@ proxy-groups:
       - 🇱🇺 femiafmr
       - 🇭🇰 api.lp-airdrop.top
       - 🇬🇧 UK Streaming
+      - 🇫🇷 FR Streaming
       - 🇱🇺 Luxembourg
       - 🇬🇧 _GB
       - 🇫🇷 _FR 5
@@ -328,6 +329,7 @@ proxy-groups:
       - 🇱🇺 femiafmr
       - 🇭🇰 api.lp-airdrop.top
       - 🇬🇧 UK Streaming
+      - 🇫🇷 FR Streaming
       - 🇱🇺 Luxembourg
       - 🇬🇧 _GB
       - 🇫🇷 _FR 5
@@ -407,6 +409,7 @@ proxy-groups:
       - 🇱🇺 femiafmr
       - 🇭🇰 api.lp-airdrop.top
       - 🇬🇧 UK Streaming
+      - 🇫🇷 FR Streaming
       - 🇱🇺 Luxembourg
       - 🏴‍☠️ Universal
       - 🇬🇧 _GB
