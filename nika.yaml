@@ -153,6 +153,8 @@ proxies:
 - { name: "🇭🇰 api.lp-airdrop.top", type: vmess, server: sssinstagram.com, udp: true, port: 2096, uuid: e36c98f2-bb76-45f6-d545-61393522027d, alterId: 0, cipher: auto, tls: true, servername: api.lp-airdrop.top, network: ws, ws-opts: { path: /login, headers: { host: api.lp-airdrop.top } } }
 - { name: "🇬🇧 UK Streaming", type: vmess, server: sssinstagram.com, udp: true, port: 8080, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, servername: polouk.yj2022.gq, network: ws, ws-opts: { path: /r8ykwif5rffiqJeJ49zLka7PbhWz3wiHs8cSeiRyZL, headers: { host: polouk.yj2022.gq } } }
 - { name: "🇱🇺 Luxembourg", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, servername: ztzhhluj.site, network: ws, ws-opts: { path: /kwhmvws, headers: { host: ztzhhluj.site } } }
+- { name: 🇬🇧 _GB, server: 198.244.231.74, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+- { name: 🇫🇷 _FR 5, server: 135.125.172.153, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
 - { name: "🇦🇪 UAE vpnjantit", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 3563bf14-97e3-11ee-9cba-525401ccd36b, alterId: 0, cipher: auto, tls: true, servername: ae1.vpnjantit.com, network: ws, ws-opts: { path: /vpnjantit, headers: { host: ae1.vpnjantit.com } } }
 - { name: "🇬🇧 UK2 vpnjantit", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: e7644440-99be-11ee-923b-00163ec8961a, alterId: 0, cipher: auto, tls: true, servername: premiuk2.vpnjantit.com, network: ws, ws-opts: { path: /vpnjantit, headers: { host: premiuk2.vpnjantit.com } } }
 - { name: "🇺🇦 UA1 vpnjantit", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: e213b8ac-99c0-11ee-889c-07b3e138cc6d, alterId: 0, cipher: auto, tls: true, servername: ua1.vpnjantit.com, network: ws, ws-opts: { path: /vpnjantit, headers: { host: ua1.vpnjantit.com } } }
@@ -252,6 +254,8 @@ proxy-groups:
       - 🇭🇰 api.lp-airdrop.top
       - 🇬🇧 UK Streaming
       - 🇱🇺 Luxembourg
+      - 🇬🇧 _GB
+      - 🇫🇷 _FR 5
       - 🏴‍☠️ Universal
       - 🇦🇪 UAE vpnjantit
       - 🇬🇧 UK2 vpnjantit
@@ -324,6 +328,8 @@ proxy-groups:
       - 🇭🇰 api.lp-airdrop.top
       - 🇬🇧 UK Streaming
       - 🇱🇺 Luxembourg
+      - 🇬🇧 _GB
+      - 🇫🇷 _FR 5
       - 🏴‍☠️ Universal
       - 🇦🇪 UAE vpnjantit
       - 🇬🇧 UK2 vpnjantit
@@ -402,6 +408,8 @@ proxy-groups:
       - 🇬🇧 UK Streaming
       - 🇱🇺 Luxembourg
       - 🏴‍☠️ Universal
+      - 🇬🇧 _GB
+      - 🇫🇷 _FR 5
 
   - name: "VPNJANTIT"
     type: select
