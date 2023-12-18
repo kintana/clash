@@ -48,7 +48,7 @@ proxies:
 - { name: "🇺🇦 UA1 vpnjantit", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: e213b8ac-99c0-11ee-889c-07b3e138cc6d, alterId: 0, cipher: auto, tls: true, servername: ua1.vpnjantit.com, network: ws, ws-opts: { path: /vpnjantit, headers: { host: ua1.vpnjantit.com } } }
 - { name: "🇺🇦 UA3 vpnjantit", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 32232e8c-9a7e-11ee-8a5f-c78c22999c7b, alterId: 0, cipher: auto, tls: true, servername: ua3.vpnjantit.com, network: ws, ws-opts: { path: /vpnjantit, headers: { host: ua3.vpnjantit.com } } }
 - { name: "🇦🇷 AR vpnjantit", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: f1ee0cf2-97e3-11ee-a7e6-5254d416deef, alterId: 0, cipher: auto, tls: true, servername: ar1.vpnjantit.com, network: ws, ws-opts: { path: /vpnjantit, headers: { host: ar1.vpnjantit.com } } }
-- { name: "🇵🇭 PH vpnjantit", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: a62759ec-9a7f-11ee-a1f8-a722c02bb03e, alterId: 0, cipher: auto, tls: true, servername: ph8.vpnjantit.com, network: ws, ws-opts: { path: /vpnjantit, headers: { host: ph8.vpnjantit.com } } }
+- { name: "🇵🇭 PH vpnjantit", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 0598a618-9d70-11ee-9100-ab6dd5d9056b, alterId: 0, cipher: auto, tls: true, servername: ph8.vpnjantit.com, network: ws, ws-opts: { path: /vpnjantit, headers: { host: ph8.vpnjantit.com } } }
 - { name: "🇦🇺 AU2 Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: d9007306-06f4-4032-bcde-b9d499b14a89, alterId: 0, cipher: auto, tls: true, servername: au2-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: au2-full.privateip.net } } }
 - { name: "🇦🇺 AU Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 5b35fb14-923a-4977-b79c-0ac6d0f8dfd0, alterId: 0, cipher: auto, tls: true, servername: au-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: au-full.privateip.net } } }
 - { name: "🇸🇪 SE Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 596e34c0-e4dd-4537-a062-6a614fb8cc3c, alterId: 0, cipher: auto, tls: true, servername: se-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: se-full.privateip.net } } }
@@ -84,6 +84,8 @@ proxies:
 - { name: "🇫🇷 FR1 Opentunnel", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, servername: frv-1.openv2ray.com, network: ws, ws-opts: { path: /u/opentunnel.net-lebla, headers: { host: frv-1.openv2ray.com } } }
 - { name: "🇺🇸 US1 Opentunnel", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, servername: usv-1.openv2ray.com, network: ws, ws-opts: { path: /u/opentunnel.net-lebla, headers: { host: usv-1.openv2ray.com } } }
 - { name: "🇦🇺 AU1 Opentunnel", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, servername: auv-1.openv2ray.com, network: ws, ws-opts: { path: /u/opentunnel.net-lebla, headers: { host: auv-1.openv2ray.com } } }
+- { name: "🇦🇹 AT Sshocean", type: vmess, server: at1.xv2ray.net, udp: true, port: 443, uuid: 317ad51f-67dd-4a46-9aad-0767b2d5240c, alterId: 0, cipher: auto, tls: true, servername: sssinstagram.com, network: ws, ws-opts: { path: /vmess, headers: { host: at1.xv2ray.net } } }
+- { name: "🇪🇪 EE Sshocean", type: vmess, server: ee2.xv2ray.net, udp: true, port: 443, uuid: d8d04caa-65d7-45b2-a16c-8850e34d99e5, alterId: 0, cipher: auto, tls: true, servername: sssinstagram.com, network: ws, ws-opts: { path: /vmess, headers: { host: ee2.xv2ray.net } } }
 
 
 
@@ -162,6 +164,8 @@ proxy-groups:
       - 🇦🇺 AU1 Opentunnel
       - 🇳🇱 NL1 Opentunnel
       - 🇳🇱 NL6 Opentunnel
+      - 🇦🇹 AT Sshocean
+      - 🇪🇪 EE Sshocean
 
   - name: "BEST-PING"
     type: url-test
@@ -237,6 +241,8 @@ proxy-groups:
       - 🇦🇺 AU1 Opentunnel
       - 🇳🇱 NL1 Opentunnel
       - 🇳🇱 NL6 Opentunnel
+      - 🇦🇹 AT Sshocean
+      - 🇪🇪 EE Sshocean
 
   - name: "Getafreenode"
     type: select
@@ -329,6 +335,12 @@ proxy-groups:
       - 🇺🇸 US1 Opentunnel
       - 🇫🇷 FR1 Opentunnel
       - 🇦🇺 AU1 Opentunnel
+
+  - name: "Sshocean"
+    type: select
+    proxies:
+      - 🇦🇹 AT Sshocean
+      - 🇪🇪 EE Sshocean
       
 rule-providers:
   clash:
