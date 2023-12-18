@@ -86,6 +86,15 @@ proxies:
 - { name: "🇦🇺 AU1 Opentunnel", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, skip-cert-verify: true, tls: true, servername: auv-1.openv2ray.com, network: ws, ws-opts: { path: /u/opentunnel.net-lebla, headers: { host: auv-1.openv2ray.com } } }
 - { name: "🇦🇹 AT Sshocean", type: vmess, server: at1.xv2ray.net, udp: true, port: 443, uuid: 317ad51f-67dd-4a46-9aad-0767b2d5240c, alterId: 0, cipher: auto, skip-cert-verify: true, tls: true, servername: sssinstagram.com, network: ws, ws-opts: { path: /vmess, headers: { host: at1.xv2ray.net } } }
 - { name: "🇪🇪 EE Sshocean", type: vmess, server: ee2.xv2ray.net, udp: true, port: 443, uuid: d8d04caa-65d7-45b2-a16c-8850e34d99e5, alterId: 0, cipher: auto, skip-cert-verify: true, tls: true, servername: sssinstagram.com, network: ws, ws-opts: { path: /vmess, headers: { host: ee2.xv2ray.net } } }
+- { name: "🇫🇮 FI Sshocean", type: vmess, server: fi1.xv2ray.net, udp: true, port: 443, uuid: e4c17262-cc0d-4bd7-9919-f8d1693c7397, alterId: 0, cipher: auto, skip-cert-verify: true, tls: true, servername: sssinstagram.com, network: ws, ws-opts: { path: /vmess, headers: { host: fi1.xv2ray.net } } }
+- { name: "🇭🇺 HU Sshocean", type: vmess, server: hu2.xv2ray.net, udp: true, port: 443, uuid: e2778d5e-ad43-4f0d-a2f7-31617e274b2f, alterId: 0, cipher: auto, skip-cert-verify: true, tls: true, servername: sssinstagram.com, network: ws, ws-opts: { path: /vmess, headers: { host: hu2.xv2ray.net } } }
+- { name: "🇮🇸 IS Sshocean", type: vmess, server: is1.xv2ray.net, udp: true, port: 443, uuid: 3f5dfc8d-7e8f-4c0e-b150-94d19d52b2a9, alterId: 0, cipher: auto, skip-cert-verify: true, tls: true, servername: sssinstagram.com, network: ws, ws-opts: { path: /vmess, headers: { host: is1.xv2ray.net } } }
+- { name: "🇮🇹 IT Sshocean", type: vmess, server: it1.xv2ray.net, udp: true, port: 443, uuid: c32f6790-9f99-43ce-a6ef-c0c832d65b85, alterId: 0, cipher: auto, skip-cert-verify: true, tls: true, servername: sssinstagram.com, network: ws, ws-opts: { path: /vmess, headers: { host: it1.xv2ray.net } } }
+- { name: "🇱🇻 LV Sshocean", type: vmess, server: lv1.xv2ray.net, udp: true, port: 443, uuid: 38ddddab-ed03-4e42-81b7-6316197721c6, alterId: 0, cipher: auto, skip-cert-verify: true, tls: true, servername: sssinstagram.com, network: ws, ws-opts: { path: /vmess, headers: { host: lv1.xv2ray.net } } }
+- { name: "🇬🇧 UK Sshocean", type: vmess, server: uk1.xv2ray.net, udp: true, port: 443, uuid: 23dc40ec-ccfc-4dad-9ef1-46cb4bce4f30, alterId: 0, cipher: auto, skip-cert-verify: true, tls: true, servername: sssinstagram.com, network: ws, ws-opts: { path: /vmess, headers: { host: uk1.xv2ray.net } } }
+- { name: "🇨🇦 CA Sshocean", type: vmess, server: ca2.xv2ray.net, udp: true, port: 443, uuid: ce649286-d8b0-431a-9946-0aa6ab847e1c, alterId: 0, cipher: auto, skip-cert-verify: true, tls: true, servername: sssinstagram.com, network: ws, ws-opts: { path: /vmess, headers: { host: ca2.xv2ray.net } } }
+- { name: "🇧🇪 BE Sshocean", type: vmess, server: be1.xv2ray.net, udp: true, port: 443, uuid: 7a8cf350-e56b-436a-aee0-341ccb06b837, alterId: 0, cipher: auto, skip-cert-verify: true, tls: true, servername: sssinstagram.com, network: ws, ws-opts: { path: /vmess, headers: { host: be1.xv2ray.net } } }
+- { name: "🇺🇦 UA Sshocean", type: vmess, server: ua1.xv2ray.net, udp: true, port: 443, uuid: 23cb703d-ad3f-41c3-9647-4336190412ac, alterId: 0, cipher: auto, skip-cert-verify: true, tls: true, servername: sssinstagram.com, network: ws, ws-opts: { path: /vmess, headers: { host: ua1.xv2ray.net } } }
 
 
 
@@ -166,6 +175,15 @@ proxy-groups:
       - 🇳🇱 NL6 Opentunnel
       - 🇦🇹 AT Sshocean
       - 🇪🇪 EE Sshocean
+      - 🇺🇦 UA Sshocean
+      - 🇧🇪 BE Sshocean
+      - 🇨🇦 CA Sshocean
+      - 🇬🇧 UK Sshocean
+      - 🇱🇻 LV Sshocean
+      - 🇮🇹 IT Sshocean
+      - 🇮🇸 IS Sshocean
+      - 🇭🇺 HU Sshocean
+      - 🇫🇮 FI Sshocean
 
   - name: "BEST-PING"
     type: url-test
@@ -243,6 +261,15 @@ proxy-groups:
       - 🇳🇱 NL6 Opentunnel
       - 🇦🇹 AT Sshocean
       - 🇪🇪 EE Sshocean
+      - 🇺🇦 UA Sshocean
+      - 🇧🇪 BE Sshocean
+      - 🇨🇦 CA Sshocean
+      - 🇬🇧 UK Sshocean
+      - 🇱🇻 LV Sshocean
+      - 🇮🇹 IT Sshocean
+      - 🇮🇸 IS Sshocean
+      - 🇭🇺 HU Sshocean
+      - 🇫🇮 FI Sshocean
 
   - name: "Getafreenode"
     type: select
@@ -341,6 +368,15 @@ proxy-groups:
     proxies:
       - 🇦🇹 AT Sshocean
       - 🇪🇪 EE Sshocean
+      - 🇺🇦 UA Sshocean
+      - 🇧🇪 BE Sshocean
+      - 🇨🇦 CA Sshocean
+      - 🇬🇧 UK Sshocean
+      - 🇱🇻 LV Sshocean
+      - 🇮🇹 IT Sshocean
+      - 🇮🇸 IS Sshocean
+      - 🇭🇺 HU Sshocean
+      - 🇫🇮 FI Sshocean
       
 rule-providers:
   clash:
