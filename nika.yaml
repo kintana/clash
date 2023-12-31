@@ -7,7 +7,7 @@ ipv6: false
 mode: Global
 log-level: silent
 allow-lan: true
-external-controller: 0.0.0.0:9090
+external-controller: 10.11.12.13:9090
 secret: ""
 bind-address: "*"
 unified-delay: true
@@ -19,7 +19,7 @@ dns:
   ipv6: false
   use-host: true
   enhanced-mode: fake-ip
-  listen: 0.0.0.0:7874
+  listen: 10.11.12.13:7874
   nameserver:
     - 8.8.8.8
     - 1.0.0.1
