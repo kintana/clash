@@ -4,10 +4,10 @@ redir-port: 7892
 mixed-port: 7893
 tproxy-port: 7895
 ipv6: false
-mode: Global
+mode: global
 log-level: silent
 allow-lan: true
-external-controller: 10.11.12.13:9090
+external-controller: 0.0.0.0:9090
 secret: ""
 bind-address: "*"
 unified-delay: true
@@ -19,7 +19,7 @@ dns:
   ipv6: false
   use-host: true
   enhanced-mode: fake-ip
-  listen: 10.11.12.13:7874
+  listen: 0.0.0.0:7874
   nameserver:
     - 8.8.8.8
     - 1.0.0.1
@@ -492,13 +492,7 @@ proxy-groups:
       - 🇫🇮 FI Sshocean
       
 rule-providers:
-  clash:
-    type: http
-    behavior: domain
-    url: https://howdy.id/download/rules/clash.txt
-    path: ./providers/rule-provider_clash.yaml
-    interval: 86400
+
 
 rules:
-  - RULE-SET,clash,REJECT
   - MATCH,Select Best PING
