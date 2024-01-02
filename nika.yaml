@@ -163,6 +163,7 @@ proxies:
 - { name: "🇦🇷 AR vpnjantit", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 32ed8d86-a59f-11ee-a7d0-5254d416deef, alterId: 0, cipher: auto, skip-cert-verify: true, tls: true, servername: ar1.vpnjantit.com, network: ws, ws-opts: { path: /vpnjantit, headers: { host: ar1.vpnjantit.com } } }
 - { name: "🇵🇭 PH vpnjantit", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 0598a618-9d70-11ee-9100-ab6dd5d9056b, alterId: 0, cipher: auto, skip-cert-verify: true, tls: true, servername: ph8.vpnjantit.com, network: ws, ws-opts: { path: /vpnjantit, headers: { host: ph8.vpnjantit.com } } }
 - { name: "🇫🇷 FR vpnjantit", type: vmess, server: premifr1.vpnjantit.com, udp: true, port: 10001, uuid: cd941b8c-a975-11ee-b0c2-77fd6df24677, alterId: 0, cipher: auto, skip-cert-verify: true, tls: true, servername: premifr1.vpnjantit.com, network: ws, ws-opts: { path: /vpnjantit, headers: { host: premifr1.vpnjantit.com } } }
+- { name: "🇫🇷 DFR vpnjantit", type: vmess, server: dfr1.vpnjantit.com, udp: true, port: 10001, uuid: 50f2b0f4-a978-11ee-9c5c-47d91a41f245, alterId: 0, cipher: auto, skip-cert-verify: true, tls: true, servername: dfr1.vpnjantit.com, network: ws, ws-opts: { path: /vpnjantit, headers: { host: dfr1.vpnjantit.com } } }
 - { name: "🇫🇷 FR2 vpnjantit", type: vmess, server: fr2.vpnjantit.com, udp: true, port: 8080, uuid: c5f6bd20-a976-11ee-8c2a-cb2f21e1e57c, alterId: 0, cipher: auto, skip-cert-verify: true, tls: true, servername: fr2.vpnjantit.com, network: ws, ws-opts: { path: /vpnjantit, headers: { host: fr2.vpnjantit.com } } }
 - { name: "🇦🇺 AU2 Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 1080dc55-ab9a-4cbc-92fe-b16cc0e289ba, alterId: 0, cipher: auto, skip-cert-verify: true, tls: true, servername: au2-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: au2-full.privateip.net } } }
 - { name: "🇦🇺 AU Racevpn", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: db373721-55aa-4ad2-9c33-855377ad289f, alterId: 0, cipher: auto, skip-cert-verify: true, tls: true, servername: au-full.privateip.net, network: ws, ws-opts: { path: /racevpn, headers: { host: au-full.privateip.net } } }
@@ -279,6 +280,7 @@ proxy-groups:
       - 🇦🇷 AR vpnjantit
       - 🇵🇭 PH vpnjantit
       - 🇫🇷 FR vpnjantit
+      - 🇫🇷 DFR vpnjantit
       - 🇫🇷 FR2 vpnjantit
       - 🇩🇪 DE Globalssh
       - 🇺🇸 US Globalssh
@@ -367,6 +369,7 @@ proxy-groups:
       - 🇦🇷 AR vpnjantit
       - 🇵🇭 PH vpnjantit
       - 🇫🇷 FR vpnjantit
+      - 🇫🇷 DFR vpnjantit
       - 🇫🇷 FR2 vpnjantit
       - 🇩🇪 DE Globalssh
       - 🇺🇸 US Globalssh
@@ -464,6 +467,7 @@ proxy-groups:
       - 🇦🇷 AR vpnjantit
       - 🇵🇭 PH vpnjantit
       - 🇫🇷 FR vpnjantit
+      - 🇫🇷 DFR vpnjantit
       - 🇫🇷 FR2 vpnjantit
 
   - name: "Globalssh"
