@@ -135,21 +135,21 @@ proxies:
 - { name: "🇺🇸 US Globalssh", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: f120e750-a75f-4013-87b1-b5979c018fca, alterId: 0, cipher: auto, skip-cert-verify: true, tls: true, servername: vmess-rs-us03.globalssh.xyz, network: ws, ws-opts: { path: /vmess-ws, headers: { host: vmess-rs-us03.globalssh.xyz } } }
 - { name: "🇨🇦 CA Globalssh", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: f895bc2b-8729-4265-992b-dc581bccad0a, alterId: 0, cipher: auto, skip-cert-verify: true, tls: true, servername: vmess-ovh-ca01.globalssh.xyz, network: ws, ws-opts: { path: /vmess-ws, headers: { host: vmess-ovh-ca01.globalssh.xyz } } }
 - { name: "🇳🇱 NL Globalssh", type: vmess, server: sssinstagram.com, udp: true, port: 443, uuid: 94dd52f3-66ab-4946-91d0-75ed0c86fd77, alterId: 0, cipher: auto, skip-cert-verify: true, tls: true, servername: vmess-dis-nl01.globalssh.xyz, network: ws, ws-opts: { path: /vmess-ws, headers: { host: vmess-dis-nl01.globalssh.xyz } } }
-- name: 🇨🇦 CA Globalssh SS
+- name: "🇨🇦 CA Globalssh SS"
     server: ss-ovh-ca01.globalssh.xyz
     port: 8388
     type: ss
     cipher: chacha20-ietf-poly1305
     password: 7ac70b64-5eb4-40a5-bcb1-26520b4f37fe
     udp: true
-- name: 🇳🇱 NL Globalssh SS
+- name: "🇳🇱 NL Globalssh SS"
     server: ss-dis-nl01.globalssh.xyz
     port: 8388
     type: ss
     cipher: chacha20-ietf-poly1305
     password: 2a1cff1b-c6d2-4135-8d76-1592d242c685
     udp: true
-- name: 🇩🇪 DE Globalssh SS
+- name: "🇩🇪 DE Globalssh SS"
     server: ss-adv-de01.globalssh.xyz
     port: 8388
     type: ss
