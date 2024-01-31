@@ -277,7 +277,7 @@ proxy-groups:
       - 🇺🇸 US1 Opentunnel
       - 🇺🇸 US4 Opentunnel
       - 🇫🇷 FR1 Opentunnel
-      - 🇦🇺 AU1 Opentunnel
+      - 🇱🇻 LV Opentunnel
       - 🇳🇱 NL1 Opentunnel
       - 🇳🇱 NL6 Opentunnel
       - 🇦🇹 AT Sshocean
@@ -360,7 +360,7 @@ proxy-groups:
       - 🇺🇸 US1 Opentunnel
       - 🇺🇸 US4 Opentunnel
       - 🇫🇷 FR1 Opentunnel
-      - 🇦🇺 AU1 Opentunnel
+      - 🇱🇻 LV Opentunnel
       - 🇳🇱 NL1 Opentunnel
       - 🇳🇱 NL6 Opentunnel
       - 🇦🇹 AT Sshocean
@@ -462,7 +462,7 @@ proxy-groups:
       - 🇳🇱 NL6 Opentunnel
       - 🇺🇸 US1 Opentunnel
       - 🇫🇷 FR1 Opentunnel
-      - 🇦🇺 AU1 Opentunnel
+      - 🇱🇻 LV Opentunnel
 
   - name: "Sshocean"
     type: select
