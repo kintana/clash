@@ -1,0 +1,477 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+tproxy-port: 7895
+ipv6: false
+mode: rule
+log-level: silent
+allow-lan: true
+external-controller: 0.0.0.0:9090
+secret: ""
+bind-address: "*"
+unified-delay: true
+profile:
+  store-selected: true
+  store-fake-ip: true
+dns:
+  enable: true
+  ipv6: false
+  use-host: true
+  enhanced-mode: fake-ip
+  listen: 0.0.0.0:7874
+  nameserver:
+    - 8.8.8.8
+    - 1.0.0.1
+    - https://dns.google/dns-query
+  fallback:
+    - 1.1.1.1
+    - 8.8.4.4
+    - https://cloudflare-dns.com/dns-query
+    - 112.215.203.254
+  default-nameserver:
+    - 8.8.8.8
+    - 1.1.1.1
+    - 112.215.203.254
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - "*.lan"
+    - "*.localdomain"
+    - "*.example"
+    - "*.invalid"
+    - "*.localhost"
+    - "*.test"
+    - "*.local"
+    - "*.home.arpa"
+    - time.*.com
+    - time.*.gov
+    - time.*.edu.cn
+    - time.*.apple.com
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
+    - ntp.*.com
+    - ntp1.*.com
+    - ntp2.*.com
+    - ntp3.*.com
+    - ntp4.*.com
+    - ntp5.*.com
+    - ntp6.*.com
+    - ntp7.*.com
+    - "*.time.edu.cn"
+    - "*.ntp.org.cn"
+    - +.pool.ntp.org
+    - time1.cloud.tencent.com
+    - music.163.com
+    - "*.music.163.com"
+    - "*.126.net"
+    - musicapi.taihe.com
+    - music.taihe.com
+    - songsearch.kugou.com
+    - trackercdn.kugou.com
+    - "*.kuwo.cn"
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - joox.com
+    - y.qq.com
+    - "*.y.qq.com"
+    - streamoc.music.tc.qq.com
+    - mobileoc.music.tc.qq.com
+    - isure.stream.qqmusic.qq.com
+    - dl.stream.qqmusic.qq.com
+    - aqqmusic.tc.qq.com
+    - amobile.music.tc.qq.com
+    - "*.xiami.com"
+    - "*.music.migu.cn"
+    - music.migu.cn
+    - "*.msftconnecttest.com"
+    - "*.msftncsi.com"
+    - msftconnecttest.com
+    - msftncsi.com
+    - localhost.ptlogin2.qq.com
+    - localhost.sec.qq.com
+    - +.srv.nintendo.net
+    - +.stun.playstation.net
+    - xbox.*.microsoft.com
+    - xnotify.xboxlive.com
+    - +.battlenet.com.cn
+    - +.wotgame.cn
+    - +.wggames.cn
+    - +.wowsgame.cn
+    - +.wargaming.net
+    - proxy.golang.org
+    - stun.*.*
+    - stun.*.*.*
+    - +.stun.*.*
+    - +.stun.*.*.*
+    - +.stun.*.*.*.*
+    - heartbeat.belkin.com
+    - "*.linksys.com"
+    - "*.linksyssmartwifi.com"
+    - "*.router.asus.com"
+    - mesu.apple.com
+    - swscan.apple.com
+    - swquery.apple.com
+    - swdownload.apple.com
+    - swcdn.apple.com
+    - swdist.apple.com
+    - lens.l.google.com
+    - stun.l.google.com
+    - +.nflxvideo.net
+    - "*.square-enix.com"
+    - "*.finalfantasyxiv.com"
+    - "*.ffxiv.com"
+    - "*.mcdn.bilivideo.cn"
+    - +.media.dssott.com
+proxies:
+  - name: vmess-ws-tls
+    server: sssinstagram.com
+    port: 443
+    type: vmess
+    uuid: dc906a40-6650-48e8-959f-5360eca3df53
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: jp-full.privateip.net
+    network: ws
+    ws-opts:
+      path: /RACEVPN
+      headers:
+        Host: jp-full.privateip.net
+    udp: true
+  - name: vmess-ws-tls 2
+    server: sssinstagram.com
+    port: 443
+    type: vmess
+    uuid: 9c52de19-51ea-4ca5-9760-e75f393158c6
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ca2-full.privateip.net
+    network: ws
+    ws-opts:
+      path: /RACEVPN
+      headers:
+        Host: ca2-full.privateip.net
+    udp: true
+  - name: vmess-ws-tls 3
+    server: sssinstagram.com
+    port: 443
+    type: vmess
+    uuid: 4a605647-adda-4f9e-a45a-c1be8b04037e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ru-full.privateip.net
+    network: ws
+    ws-opts:
+      path: /RACEVPN
+      headers:
+        Host: ru-full.privateip.net
+    udp: true
+  - name: vmess-ws-tls 4
+    server: sssinstagram.com
+    port: 443
+    type: vmess
+    uuid: 88ffd788-79ee-4b14-afef-c23aaca361e0
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: es-full.privateip.net
+    network: ws
+    ws-opts:
+      path: /RACEVPN
+      headers:
+        Host: es-full.privateip.net
+    udp: true
+  - name: vmess-ws-tls 5
+    server: sssinstagram.com
+    port: 443
+    type: vmess
+    uuid: 61b0e489-05ea-45b5-a8c0-0fde407c1edd
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: it-full.privateip.net
+    network: ws
+    ws-opts:
+      path: /RACEVPN
+      headers:
+        Host: it-full.privateip.net
+    udp: true
+  - name: vmess-ws-tls 6
+    server: sssinstagram.com
+    port: 443
+    type: vmess
+    uuid: eb99ec91-20c1-4bcd-a0e0-3cfa5909c293
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: se-full.privateip.net
+    network: ws
+    ws-opts:
+      path: /RACEVPN
+      headers:
+        Host: se-full.privateip.net
+    udp: true
+  - name: vmess-ws-tls 7
+    server: sssinstagram.com
+    port: 443
+    type: vmess
+    uuid: 4c56f4f5-9dbb-44bf-bd15-93122d0453bf
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: se2-full.privateip.net
+    network: ws
+    ws-opts:
+      path: /RACEVPN
+      headers:
+        Host: se2-full.privateip.net
+    udp: true
+  - name: vmess-ws-tls 8
+    server: sssinstagram.com
+    port: 443
+    type: vmess
+    uuid: d850a191-6afd-40de-b08e-653e4ff7806e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: fr2-full.privateip.net
+    network: ws
+    ws-opts:
+      path: /RACEVPN
+      headers:
+        Host: fr2-full.privateip.net
+    udp: true
+  - name: vmess-ws-tls 9
+    server: sssinstagram.com
+    port: 443
+    type: vmess
+    uuid: 5d7c2894-f657-4a58-8b3d-14836128a1dd
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: in-full.privateip.net
+    network: ws
+    ws-opts:
+      path: /RACEVPN
+      headers:
+        Host: in-full.privateip.net
+    udp: true
+  - name: vmess-ws-tls 10
+    server: sssinstagram.com
+    port: 443
+    type: vmess
+    uuid: e7277ad1-ef6c-41f3-a796-047ad35ae37e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: nl2-full.privateip.net
+    network: ws
+    ws-opts:
+      path: /RACEVPN
+      headers:
+        Host: nl2-full.privateip.net
+    udp: true
+  - name: vmess-ws-tls 11
+    server: sssinstagram.com
+    port: 443
+    type: vmess
+    uuid: f0fffb1b-8032-4548-8efb-e8700e31bddb
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: fr-full.privateip.net
+    network: ws
+    ws-opts:
+      path: /RACEVPN
+      headers:
+        Host: fr-full.privateip.net
+    udp: true
+  - name: vmess-ws-tls 12
+    server: sssinstagram.com
+    port: 443
+    type: vmess
+    uuid: 7b78c109-b472-4e00-ad01-36c02d307715
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: au-full.privateip.net
+    network: ws
+    ws-opts:
+      path: /RACEVPN
+      headers:
+        Host: au-full.privateip.net
+    udp: true
+  - name: vmess-ws-tls 13
+    server: sssinstagram.com
+    port: 443
+    type: vmess
+    uuid: af506354-6232-4349-b68b-80abbdb90d2b
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: nl-full.privateip.net
+    network: ws
+    ws-opts:
+      path: /RACEVPN
+      headers:
+        Host: nl-full.privateip.net
+    udp: true
+  - name: vmess-ws-tls 14
+    server: sssinstagram.com
+    port: 443
+    type: vmess
+    uuid: fe50b85e-4dac-4601-9d97-65695b35ce23
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ca-full.privateip.net
+    network: ws
+    ws-opts:
+      path: /RACEVPN
+      headers:
+        Host: ca-full.privateip.net
+    udp: true
+  - name: vmess-ws-tls 15
+    server: sssinstagram.com
+    port: 443
+    type: vmess
+    uuid: 7c2b82db-043d-439d-8029-18331cb2e032
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: uk2-full.privateip.net
+    network: ws
+    ws-opts:
+      path: /RACEVPN
+      headers:
+        Host: uk2-full.privateip.net
+    udp: true
+  - name: vmess-ws-tls 16
+    server: sssinstagram.com
+    port: 443
+    type: vmess
+    uuid: dfd426e8-bd72-44ee-846e-df8ddc9ca5fc
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: de2-full.privateip.net
+    network: ws
+    ws-opts:
+      path: /RACEVPN
+      headers:
+        Host: de2-full.privateip.net
+    udp: true
+  - name: vmess-ws-tls 17
+    server: sssinstagram.com
+    port: 443
+    type: vmess
+    uuid: 32088f2f-92b3-456b-9f66-3b50e06555f6
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: us2-full.privateip.net
+    network: ws
+    ws-opts:
+      path: /RACEVPN
+      headers:
+        Host: us2-full.privateip.net
+    udp: true
+  - name: vmess-ws-tls 18
+    server: sssinstagram.com
+    port: 443
+    type: vmess
+    uuid: 6ebaaf37-e27f-4f52-8809-6ce049b12ec5
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: de-full.privateip.net
+    network: ws
+    ws-opts:
+      path: /RACEVPN
+      headers:
+        Host: de-full.privateip.net
+    udp: true
+  - name: vmess-ws-tls 19
+    server: sssinstagram.com
+    port: 443
+    type: vmess
+    uuid: 67577be5-1f0c-4642-a7df-c29f9c727e5b
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: uk-full.privateip.net
+    network: ws
+    ws-opts:
+      path: /RACEVPN
+      headers:
+        Host: uk-full.privateip.net
+    udp: true
+  - name: vmess-ws-tls 20
+    server: sssinstagram.com
+    port: 443
+    type: vmess
+    uuid: abbe8b3a-f870-4fa8-9c04-8545798eb0f7
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: us-full.privateip.net
+    network: ws
+    ws-opts:
+      path: /RACEVPN
+      headers:
+        Host: us-full.privateip.net
+    udp: true
+proxy-groups:
+  - name: FASTSSH-SSHKIT-HOWDY
+    type: select
+    proxies:
+      - vmess-ws-tls
+      - vmess-ws-tls 2
+      - vmess-ws-tls 3
+      - vmess-ws-tls 4
+      - vmess-ws-tls 5
+      - vmess-ws-tls 6
+      - vmess-ws-tls 7
+      - vmess-ws-tls 8
+      - vmess-ws-tls 9
+      - vmess-ws-tls 10
+      - vmess-ws-tls 11
+      - vmess-ws-tls 12
+      - vmess-ws-tls 13
+      - vmess-ws-tls 14
+      - vmess-ws-tls 15
+      - vmess-ws-tls 16
+      - vmess-ws-tls 17
+      - vmess-ws-tls 18
+      - vmess-ws-tls 19
+      - vmess-ws-tls 20
+      - DIRECT
+rules:
+  - MATCH,FASTSSH-SSHKIT-HOWDY
