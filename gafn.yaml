@@ -6,9 +6,9 @@ log-level: info
 external-controller: 127.0.0.1:9090
     
 proxies:
-- { name: "Texas-GetAFreeNode.com", type: vmess, server: sssinstagram.com, port: 443, uuid: efd5660c-2b4e-4c76-9928-c1cdd1163359, alterId: 0, cipher: auto, tls: true, servername: Texas.realityforus.com, network: ws, ws-opts: { path: /speedtest, headers: { host: Texas.realityforus.com } } }
-- { name: "Dallas-GetAFreeNode.com", type: vmess, server: sssinstagram.com, port: 443, uuid: efd5660c-2b4e-4c76-9928-c1cdd1163359, alterId: 0, cipher: auto, tls: true, servername: Dallas.realityforus.com, network: ws, ws-opts: { path: /speedtest, headers: { host: Dallas.realityforus.com } } }
-- { name: "Frankfurt-GetAFreeNode.com", type: vmess, server: sssinstagram.com, port: 443, uuid: efd5660c-2b4e-4c76-9928-c1cdd1163359, alterId: 0, cipher: auto, tls: true, servername: Frankfurt.realityforus.com, network: ws, ws-opts: { path: /speedtest, headers: { host: Frankfurt.realityforus.com } } }
+- { name: "Frankfurt-GetAFreeNode.com", type: vmess, server: sssinstagram.com, port: 443, uuid: 6a8b0eb9-9427-40f9-af28-552fc0f19dce, alterId: 0, cipher: auto, tls: true, servername: Frankfurt.realityforus.com, network: ws, ws-opts: { path: /speedtest, headers: { host: Frankfurt.realityforus.com } } }
+- { name: "Texas-GetAFreeNode.com", type: vmess, server: sssinstagram.com, port: 443, uuid: 6a8b0eb9-9427-40f9-af28-552fc0f19dce, alterId: 0, cipher: auto, tls: true, servername: Texas.realityforus.com, network: ws, ws-opts: { path: /speedtest, headers: { host: Texas.realityforus.com } } }
+- { name: "Dallas-GetAFreeNode.com", type: vmess, server: sssinstagram.com, port: 443, uuid: 6a8b0eb9-9427-40f9-af28-552fc0f19dce, alterId: 0, cipher: auto, tls: true, servername: Dallas.realityforus.com, network: ws, ws-opts: { path: /speedtest, headers: { host: Dallas.realityforus.com } } }
 
 
 proxy-groups:
@@ -17,9 +17,9 @@ proxy-groups:
     type: select
     proxies:
       - Auto Choose
+      - Frankfurt-GetAFreeNode.com
       - Texas-GetAFreeNode.com
       - Dallas-GetAFreeNode.com
-      - Frankfurt-GetAFreeNode.com
 
 
 
@@ -28,9 +28,9 @@ proxy-groups:
     proxies:
       - Main Node
       - Auto Choose
+      - Frankfurt-GetAFreeNode.com
       - Texas-GetAFreeNode.com
       - Dallas-GetAFreeNode.com
-      - Frankfurt-GetAFreeNode.com
 
       - Directly
 
@@ -39,9 +39,9 @@ proxy-groups:
     proxies:
       - Main Node
       - Auto Choose
+      - Frankfurt-GetAFreeNode.com
       - Texas-GetAFreeNode.com
       - Dallas-GetAFreeNode.com
-      - Frankfurt-GetAFreeNode.com
 
       - Directly
 
@@ -50,9 +50,9 @@ proxy-groups:
     proxies:
       - Main Node
       - Auto Choose
+      - Frankfurt-GetAFreeNode.com
       - Texas-GetAFreeNode.com
       - Dallas-GetAFreeNode.com
-      - Frankfurt-GetAFreeNode.com
 
       - Directly
       
@@ -62,17 +62,17 @@ proxy-groups:
       - Directly
       - Main Node
       - Auto Choose
+      - Frankfurt-GetAFreeNode.com
       - Texas-GetAFreeNode.com
       - Dallas-GetAFreeNode.com
-      - Frankfurt-GetAFreeNode.com
 
 
   - name: "Auto Choose"
     type: fallback
     proxies:
+      - Frankfurt-GetAFreeNode.com
       - Texas-GetAFreeNode.com
       - Dallas-GetAFreeNode.com
-      - Frankfurt-GetAFreeNode.com
 
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
